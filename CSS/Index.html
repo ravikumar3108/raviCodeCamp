@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <!-- 
+     Box Model :-
+     1. Border : A line around our content 
+     2. Padding : Space between our content and the border.
+
+     3. Margin : space betwwen our border and the outer element
+     4. Content
+
+
+    -->
+    <!-- border three parameters : (width, style , color) -->
+    <style>
+        h1{
+            border: 1px solid green;
+            /*
+            padding : 
+            1parameter === aplly four sides 
+            2 parameters :- top / bottom , left / right
+            3 parameters :- top , left and right ,  bottom 
+            4 parameters :- top , right , bottom , left
+             */
+            padding: 10px;
+            padding: 20px 30px;
+            padding: 20px 30px 40px;
+            padding: 10px 20px 30px 40px;
+            padding-left: 50px;
+        }
+        h2{
+            border: 1px solid black;
+            /* margin : 
+            1parameter === aplly four sides 
+            2 parameters :- top / bottom , left / right
+            3 parameters :- top , left and right ,  bottom 
+            4 parameters :- top , right , bottom , left
+            
+            */
+            margin: 10px;
+            margin-top: 100px;
+            width: 50%;
+
+        }
+    </style>
+
+    <h1>Heading</h1>
+    <h2>Heading 2</h2>
+
+</body>
+</html>
